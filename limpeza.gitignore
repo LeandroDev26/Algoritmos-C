@@ -1,16 +1,4 @@
-# Ignora tudo por padrão
-*
-
-# Não ignorar pastas (necessário para o Git entrar nelas)
-!*/
-
-# PERMITIR apenas estes arquivos:
-!*.c
-!*.h
-!README.md
-!.gitignore
-!LICENSE
-
-# GARANTIR que arquivos de projeto do Code::Blocks sejam ignorados
+*.exe
 *.cbp
 *.layout
+*.depend

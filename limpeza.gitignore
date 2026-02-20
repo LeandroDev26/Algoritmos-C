@@ -1,7 +1,6 @@
-**/[Aa]lgoritmos-C/*.exe
-**/*.cbp
-**/*.layout
-**/*.depend
-**/*.exe
+*.cbp
+*.layout
+*.depend
+*.exe
 bin/
 obj/

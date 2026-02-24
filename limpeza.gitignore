@@ -1,6 +1,12 @@
-**/*.cbp
-**/*.layout
-**/*.depend
-**/*.exe
-**/bin/
-**/obj/
+# Arquivos de projeto do CodeBlocks
+*.cbp
+*.layout
+*.depend
+
+# Pastas de compilação
+bin/
+obj/
+
+# Executáveis
+*.exe
+*.o

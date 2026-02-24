@@ -1,6 +1,13 @@
-*.cbp
-*.layout
-*.depend
-*.exe
-bin/
-obj/
+# Ignorar arquivos do Code::Blocks em qualquer pasta
+**/*.cbp
+**/*.layout
+**/*.depend
+
+# Ignorar executáveis e pastas de compilação
+**/*.exe
+**/bin/
+**/obj/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
